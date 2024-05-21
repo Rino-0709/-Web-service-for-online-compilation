@@ -82,7 +82,12 @@ app.post("/compile", async (req, res) => {
     const response = await axios.post(apiUrl, requestData);
     const { output, error, exit_code } = response.data;
     console.log('Response:', response.data);
-    const result = `${output}\n...Program finished with exit code ${exit_code}\n\n${error}`;
+    let result;
+    if (error) {
+      result = `${output}\n${error}`;
+    } else {
+      result = `${output}\n...Program finished with exit code ${exit_code}`;
+    }
     res.send(result);
 
   } catch (error) {

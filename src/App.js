@@ -63,9 +63,7 @@ function App() {
 
     function compile() {
         setLoading(true);
-        if (userCode === ``) {
-            return 
-        }
+        
 
         Axios.post(`http://localhost:8000/compile`, {
             code: userCode,

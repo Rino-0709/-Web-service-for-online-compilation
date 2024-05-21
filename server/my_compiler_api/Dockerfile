@@ -19,13 +19,13 @@ RUN ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime && dpkg-reconfigure --fron
 WORKDIR /app
 
 # Copy app source
-COPY . .
+COPY app /app
 
 # Install Python dependencies
 RUN pip3 install flask
 
 # Set up environment
-ENV FLASK_APP=app/main.py
+ENV FLASK_APP=main.py
 
 # Expose the port the app runs on
 EXPOSE 5000

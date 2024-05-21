@@ -8,13 +8,10 @@ const Navbar = ({ userLang, setUserLang, userTheme, setUserTheme, fontSize, setF
     const [password, setPassword] = useState('');
 
     const languages = [
-        { value: "c", label: "C" },
-        { value: "cpp", label: "C++" },
         { value: "python", label: "Python" },
         { value: "java", label: "Java" },
+        { value: "cpp", label: "C++" },
         { value: "javascript", label: "Javascript" },
-        { value: "csharp", label: "C#" },
-        { value: "php", label: "PHP" },
     ];
     const themes = [
         { value: "vs-dark", label: "Dark" },

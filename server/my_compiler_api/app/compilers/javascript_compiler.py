@@ -1,15 +1,13 @@
 import subprocess
 
-def compile_and_run(code, input_data):
+def compile_and_run_javascript(code, input_data):
     try:
-        process = subprocess.Popen(
+        process = subprocess.run(
             ['node', '-e', code],
-            stdin=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
+            input=input_data,
+            text=True,
+            capture_output=True
         )
-        output, error = process.communicate(input=input_data, timeout=5)
-        return {'output': output, 'error': error}
-    except subprocess.TimeoutExpired:
-        return {'error': 'Execution timed out'}
+        return {'output': process.stdout, 'error': process.stderr, 'exit_code': process.returncode}
+    except subprocess.CalledProcessError as e:
+        return {'output': e.stdout, 'error': e.stderr, 'exit_code': e.returncode}
