@@ -33,12 +33,7 @@ function App() {
             language: userLang,
             input: userInput
         }).then((res) => {
-            if (res.data.output === ''){
-                setUserOutput(res.data.error);
-            }
-            else{
-                setUserOutput(res.data.output);
-            }
+            setUserOutput(res.data);
         }).then(() => {
             setLoading(false);
         })
