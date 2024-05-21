@@ -17,10 +17,49 @@ function App() {
     const [userInput, setUserInput] = useState("");
     const [userOutput, setUserOutput] = useState("");
     const [loading, setLoading] = useState(false);
+    const [token, setToken] = useState(null);
+    const [codeHistory, setCodeHistory] = useState([]);
+    const [showCodeHistory, setShowCodeHistory] = useState(false);
+    const [isClosing, setIsClosing] = useState(false);
     
     const options = {
         fontSize: fontSize
     }
+
+    const handleLogin = async (username, password) => {
+        try {
+            const res = await Axios.post(`http://localhost:8000/login`, { username, password });
+            setToken(res.data.token);
+        } catch (error) {
+            console.error("Login error:", error);
+        }
+    };
+
+    const handleRegister = async (username, password) => {
+        try {
+            await Axios.post(`http://localhost:8000/register`, { username, password });
+            handleLogin(username, password);
+        } catch (error) {
+            console.error("Registration error:", error);
+        }
+    };
+
+    const handleLogout = () => {
+        setToken(null);
+    };
+
+    const handleShowHistory = async () => {
+        if (!token) return;
+
+        Axios.get('http://localhost:8000/code-history', {
+            headers: { Authorization: token }
+        }).then((res) => {
+            setCodeHistory(res.data);
+            setShowCodeHistory(true); // Показать модальное окно при успешном получении истории кода
+        }).catch(err => {
+            console.error(err);
+        });
+    };
 
     function compile() {
         setLoading(true);
@@ -34,10 +73,37 @@ function App() {
             input: userInput
         }).then((res) => {
             setUserOutput(res.data);
+            if (token) {
+                saveCode(userCode,userLang);
+            }
         }).then(() => {
             setLoading(false);
         })
     }
+
+    const saveCode = async (code, language) => {
+        try {
+            await Axios.post(`http://localhost:8000/save-code`, { token, code, language });
+        } catch (error) {
+            console.error("Save code error:", error);
+        }
+    };
+
+    const copyToClipboard = (code) => {
+        navigator.clipboard.writeText(code).then(() => {
+            alert('Code copied to clipboard!');
+        }).catch(err => {
+            console.error('Could not copy text: ', err);
+        });
+    };
+
+    const closeModal = () => {
+        setIsClosing(true);
+        setTimeout(() => {
+            setShowCodeHistory(false);
+            setIsClosing(false);
+        }, 500); 
+    };
     
 
 
@@ -51,6 +117,9 @@ function App() {
                 userLang={userLang} setUserLang={setUserLang}
                 userTheme={userTheme} setUserTheme={setUserTheme}
                 fontSize={fontSize} setFontSize={setFontSize}
+                token={token} handleLogin={handleLogin}
+                handleRegister={handleRegister} handleLogout={handleLogout}
+                handleShowHistory={handleShowHistory}
             />
             <div className="main">
             <SplitPane split="vertical" className="split" minSize={400} maxSize={1500} defaultSize='60%'  >
@@ -98,6 +167,38 @@ function App() {
                     </div>
             </SplitPane>
             </div>
+            {showCodeHistory && (
+                <div className={`modal ${isClosing ? 'fade-out' : ''}`} onClick={closeModal}>
+                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                        <span className="close-button" onClick={closeModal}>&times;</span>
+                        <h3>Code History:</h3>
+                        <ul>
+                            {codeHistory.map((item, index) => (
+                                <li key={index}>
+                                <strong>Language:</strong> {item.language} <br />
+                                <strong>Saved At:</strong> {item.timestamp} <br />
+                                <button 
+                                    onClick={() => copyToClipboard(item.code)} 
+                                    className="copy-btn"
+                                    style={{ 
+                                        padding: '5px 10px',
+                                        background: '#4CAF50',
+                                        color: 'white',
+                                        border: 'none',
+                                        borderRadius: '4px',
+                                        cursor: 'pointer',
+                                        fontWeight: 'bold',
+                                    }}
+                                    >
+                                        Copy full code
+                                    </button> 
+                                <pre>{item.code}</pre> <br />
+                                                               
+                            </li>))}
+                        </ul>
+                    </div>
+                </div>
+            )}
         </div>
         
     );

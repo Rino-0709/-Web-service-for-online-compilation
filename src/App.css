@@ -31,6 +31,75 @@
   padding: 5px;
 }
 
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4); /* Цвет фона с затемнением */
+  opacity: 0; /* Начальное значение прозрачности */
+  animation: fadeIn 0.5s forwards; /* Анимация для плавного появления */
+}
+
+.modal.fade-out {
+  animation: fadeOut 0.5s forwards; /* Анимация для плавного закрытия */
+}
+
+/* Анимация для плавного появления модального окна */
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+      opacity: 0;
+  }
+}
+
+/* Стили для контента модального окна */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* Стили для кнопки закрытия модального окна */
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 
 

@@ -1,6 +1,0 @@
-FROM node:14
-
-WORKDIR /app
-COPY app/run_code_scripts/run_code.js /app/
-
-CMD ["node", "run_code.js"]

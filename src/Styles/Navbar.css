@@ -12,6 +12,12 @@
     gap: 40px;
 }
 
+.navbar h1 {
+    font-size: 1.5rem;
+    margin: 0 10px 0 0; 
+    white-space: nowrap; 
+}
+
 #no {
     height: 36px;
     width: 80px;
@@ -37,4 +43,79 @@
     border-color: #60d2ff ;
 }
 
+.button-logout {
+    background-color: #ff4d4d; /* Красный цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Отступы */
+    margin: 5px; /* Поля */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Курсор указывает на кликабельность */
+}
+
+.button-logout:hover {
+    background-color: #ff1a1a; /* Темнее красный при наведении */
+}
+
+.button-history {
+    background-color: #4d79ff; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Отступы */
+    margin: 5px; /* Поля */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Курсор указывает на кликабельность */
+}
+
+.button-history:hover {
+    background-color: #1a53ff; /* Темнее синий при наведении */
+}
+
+.button-login {
+    background-color: #4caf50; /* Зеленый цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Отступы */
+    margin: 5px; /* Поля */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Курсор указывает на кликабельность */
+}
+
+.button-login:hover {
+    background-color: #45a049; /* Темнее зеленый при наведении */
+}
+
+.button-register {
+    background-color: #f0ad4e; /* Оранжевый цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Отступы */
+    margin: 5px; /* Поля */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Курсор указывает на кликабельность */
+}
+
+.button-register:hover {
+    background-color: #ec971f; /* Темнее оранжевый при наведении */
+}
+
+.input-field {
+    padding: 10px; /* Отступы */
+    margin: 5px; /* Поля */
+    border-radius: 5px; /* Скругленные углы */
+    border: 1px solid #ccc; /* Серая граница */
+    width: 200px; /* Ширина */
+    box-sizing: border-box; /* Учитывать padding и border в ширине */
+}
+
+.input-field:focus {
+    outline: none; /* Убираем стандартное выделение */
+    border-color: #4caf50; /* Зеленая граница при фокусе */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Тень */
+}
+
+.auth-buttons {
+    display: flex; /* Используем flexbox для горизонтального выравнивания */
+    align-items: center; /* Вертикальное выравнивание по центру */
+}
   
