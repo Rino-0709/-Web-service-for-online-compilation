@@ -19,23 +19,26 @@ def compile_and_run_java(code, input_data):
     java_file_path = os.path.join(tempfile.gettempdir(), f'{class_name}.java')
     with open(java_file_path, 'w') as temp_java_file:
         temp_java_file.write(code)
-        
+
     try:
         subprocess.run(
-            ['javac', java_file_path],
+            ['timeout', '5', 'javac', java_file_path],
             check=True,
             capture_output=True,
             text=True
         )
         process = subprocess.run(
-            ['java', '-cp', tempfile.gettempdir(), class_name],
+            ['timeout', '5', 'java', '-cp', tempfile.gettempdir(), class_name],
             input=input_data,
             text=True,
-            capture_output=True
+            capture_output=True,
+            check=True
         )
         return {'output': process.stdout, 'error': process.stderr, 'exit_code': process.returncode}
     except subprocess.CalledProcessError as e:
         return {'output': e.stdout, 'error': e.stderr, 'exit_code': e.returncode}
+    except subprocess.TimeoutExpired:
+        return {'output': '', 'error': 'Execution timed out', 'exit_code': 1}
     finally:
         os.remove(java_file_path)
         class_file = java_file_path.replace('.java', '.class')

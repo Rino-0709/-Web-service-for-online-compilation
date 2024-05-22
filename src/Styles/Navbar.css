@@ -6,6 +6,8 @@
     padding-top: 3px;
     padding-bottom: 3px;
     height: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
     text-align: center;
     color: #607dff;
     background-color: #474747;
@@ -48,6 +50,7 @@
     color: white; /* Белый цвет текста */
     border: none; /* Убираем границу */
     padding: 10px 20px; /* Отступы */
+    font-weight: bold;
     margin: 5px; /* Поля */
     border-radius: 5px; /* Скругленные углы */
     cursor: pointer; /* Курсор указывает на кликабельность */
@@ -61,6 +64,7 @@
     background-color: #4d79ff; /* Синий цвет фона */
     color: white; /* Белый цвет текста */
     border: none; /* Убираем границу */
+    font-weight: bold;
     padding: 10px 20px; /* Отступы */
     margin: 5px; /* Поля */
     border-radius: 5px; /* Скругленные углы */
@@ -76,6 +80,8 @@
     color: white; /* Белый цвет текста */
     border: none; /* Убираем границу */
     padding: 10px 20px; /* Отступы */
+    margin-right:60px;
+    font-weight: bold;
     margin: 5px; /* Поля */
     border-radius: 5px; /* Скругленные углы */
     cursor: pointer; /* Курсор указывает на кликабельность */
@@ -89,6 +95,7 @@
     background-color: #f0ad4e; /* Оранжевый цвет фона */
     color: white; /* Белый цвет текста */
     border: none; /* Убираем границу */
+    font-weight: bold;
     padding: 10px 20px; /* Отступы */
     margin: 5px; /* Поля */
     border-radius: 5px; /* Скругленные углы */
@@ -117,5 +124,5 @@
 .auth-buttons {
     display: flex; /* Используем flexbox для горизонтального выравнивания */
     align-items: center; /* Вертикальное выравнивание по центру */
+    gap: 30px;
 }
-  

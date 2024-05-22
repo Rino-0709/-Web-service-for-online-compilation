@@ -12,6 +12,7 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
+    "python-shell": "^5.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -19,7 +20,8 @@
     "react-split-pane": "^0.1.92",
     "split.js": "^1.6.5",
     "sqlite3": "^5.1.7",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "winston": "^3.13.0"
   },
   "scripts": {
     "start": "react-scripts start",

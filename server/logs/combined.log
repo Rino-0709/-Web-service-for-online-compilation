@@ -1,0 +1,189 @@
+2024-05-22T08:41:02.396Z [info]: User from id submitted code for compilation
+2024-05-22T09:11:35.177Z [info]: Server listening on port 8000
+2024-05-22T09:11:35.183Z [info]: Connected to the database.
+2024-05-22T09:14:11.640Z [info]: Server listening on port 8000
+2024-05-22T09:14:11.650Z [info]: Connected to the database.
+2024-05-22T09:30:30.193Z [info]: Server listening on port 4000
+2024-05-22T09:30:30.199Z [info]: Connected to the database.
+2024-05-22T09:38:42.310Z [info]: Server listening on port 4000
+2024-05-22T09:38:42.317Z [info]: Connected to the database.
+2024-05-22T11:48:44.724Z [info]: Server listening on port 4000
+2024-05-22T11:48:44.730Z [info]: Connected to the database.
+2024-05-22T12:02:20.739Z [info]: Connected to the database.
+2024-05-22T12:05:28.720Z [info]: Server listening on port 8000
+2024-05-22T12:08:27.834Z [info]: Compiling code in language: python
+2024-05-22T12:08:27.898Z [info]: Compilation response received
+2024-05-22T12:08:43.182Z [info]: Login attempt for username: Rino
+2024-05-22T12:08:43.244Z [info]: User logged in successfully: Rino
+2024-05-22T12:08:48.006Z [info]: Compiling code in language: python
+2024-05-22T12:08:48.034Z [info]: Compilation response received
+2024-05-22T12:08:48.104Z [info]: Saving code for user ID: 1
+2024-05-22T12:08:48.250Z [info]: Code saved successfully for user ID: 1
+2024-05-22T12:09:00.134Z [info]: Fetching code history for user ID: 1
+2024-05-22T12:09:00.135Z [info]: Code history fetched successfully for user ID: 1
+2024-05-22T12:10:44.279Z [info]: Compiling code in language: python
+2024-05-22T12:10:44.299Z [info]: Compilation response received
+2024-05-22T12:10:44.300Z [warn]: Compilation error:   File "<string>", line 1
+    print(1233asdasd33)
+              ^
+SyntaxError: invalid syntax
+
+2024-05-22T12:10:44.310Z [info]: Saving code for user ID: 1
+2024-05-22T12:10:44.405Z [info]: Code saved successfully for user ID: 1
+2024-05-22T12:11:04.041Z [info]: Register attempt for username: Rino0709
+2024-05-22T12:11:04.211Z [info]: User registered successfully: Rino0709
+2024-05-22T12:11:04.238Z [info]: Login attempt for username: Rino0709
+2024-05-22T12:11:04.299Z [info]: User logged in successfully: Rino0709
+2024-05-22T12:11:41.145Z [info]: Compiling code in language: python
+2024-05-22T12:11:46.156Z [info]: Compilation response received
+2024-05-22T12:11:46.171Z [info]: Saving code for user ID: 2
+2024-05-22T12:11:46.269Z [info]: Code saved successfully for user ID: 2
+2024-05-22T12:15:39.917Z [info]: Server listening on port 8000
+2024-05-22T12:15:39.922Z [info]: Connected to the database.
+2024-05-22T12:15:39.928Z [info]: Users table created or already exists.
+2024-05-22T12:15:39.928Z [info]: Code history table created or already exists.
+2024-05-22T12:16:09.350Z [info]: Compiling code in language: python
+2024-05-22T12:16:09.450Z [info]: Compilation response received
+2024-05-22T12:16:26.099Z [info]: Login attempt for username: Rino0709
+2024-05-22T12:16:26.099Z [info]: Logging in user: Rino0709
+2024-05-22T12:16:26.160Z [info]: User logged in successfully: Rino0709
+2024-05-22T12:16:26.163Z [info]: User logged in successfully: Rino0709
+2024-05-22T12:16:26.757Z [info]: Fetching code history for user ID: 2
+2024-05-22T12:16:26.758Z [info]: Retrieving code history for user ID: 2
+2024-05-22T12:16:26.758Z [info]: Code history retrieved successfully for user ID: 2
+2024-05-22T12:16:26.758Z [info]: Code history fetched successfully for user ID: 2
+2024-05-22T12:16:52.085Z [info]: Compiling code in language: python
+2024-05-22T12:16:57.098Z [info]: Compilation response received
+2024-05-22T12:16:57.112Z [info]: Saving code for user ID: 2
+2024-05-22T12:16:57.113Z [info]: Saving code for user ID: 2
+2024-05-22T12:16:57.220Z [info]: Code saved successfully for user ID: 2
+2024-05-22T12:16:57.221Z [info]: Code saved successfully for user ID: 2
+2024-05-22T12:19:34.915Z [info]: Server listening on port 8000
+2024-05-22T12:19:34.920Z [info]: Connected to the database.
+2024-05-22T12:19:34.926Z [info]: Users table created or already exists.
+2024-05-22T12:19:34.927Z [info]: Code history table created or already exists.
+2024-05-22T12:19:52.447Z [info]: Compiling code in language: python
+2024-05-22T12:19:52.519Z [info]: Compilation response received
+2024-05-22T12:20:49.204Z [info]: Server listening on port 8000
+2024-05-22T12:20:49.215Z [info]: Connected to the database.
+2024-05-22T12:20:49.224Z [info]: Users table created or already exists.
+2024-05-22T12:20:49.225Z [info]: Code history table created or already exists.
+2024-05-22T12:21:09.340Z [info]: Compiling code in language: python
+2024-05-22T12:21:09.418Z [info]: Compilation response received
+2024-05-22T12:21:29.078Z [info]: Login attempt for username: Rino0709
+2024-05-22T12:21:29.138Z [info]: User logged in successfully: Rino0709
+2024-05-22T12:21:29.143Z [info]: User logged in successfully: Rino0709
+2024-05-22T12:21:30.174Z [info]: Compiling code in language: python
+2024-05-22T12:21:30.207Z [info]: Compilation response received
+2024-05-22T12:21:30.220Z [info]: Saving code for user ID: 2
+2024-05-22T12:21:30.332Z [info]: Code saved successfully for user ID: 2
+2024-05-22T12:21:30.333Z [info]: Code saved successfully for user ID: 2
+2024-05-22T12:21:46.710Z [info]: Fetching code history for user ID: 2
+2024-05-22T12:21:46.711Z [info]: Code history retrieved successfully for user ID: 2
+2024-05-22T12:21:46.711Z [info]: Code history retrieved successfully for user ID: 2
+2024-05-22T12:21:57.698Z [info]: Compiling code in language: python
+2024-05-22T12:21:57.722Z [info]: Compilation response received
+2024-05-22T12:21:57.733Z [info]: Saving code for user ID: 2
+2024-05-22T12:21:57.839Z [info]: Code saved successfully for user ID: 2
+2024-05-22T12:21:57.839Z [info]: Code saved successfully for user ID: 2
+2024-05-22T12:23:21.934Z [info]: Server listening on port 8000
+2024-05-22T12:23:21.943Z [info]: Connected to the database.
+2024-05-22T12:23:21.949Z [info]: Users table created or already exists.
+2024-05-22T12:23:21.949Z [info]: Code history table created or already exists.
+2024-05-22T12:23:43.557Z [info]: Compiling code in language: python
+2024-05-22T12:23:43.631Z [info]: Compilation response received
+2024-05-22T12:23:52.344Z [info]: Login attempt for username: Rino0709
+2024-05-22T12:23:52.403Z [info]: User logged in successfully: Rino0709
+2024-05-22T12:23:56.010Z [info]: Fetching code history for user ID: 2
+2024-05-22T12:23:56.011Z [info]: Code history retrieved successfully for user ID: 2
+2024-05-22T12:24:00.438Z [info]: Compiling code in language: python
+2024-05-22T12:24:00.470Z [info]: Compilation response received
+2024-05-22T12:24:00.480Z [info]: Saving code for user ID: 2
+2024-05-22T12:24:00.583Z [info]: Code saved successfully for user ID: 2
+2024-05-22T12:27:01.664Z [info]: Compiling code in language: python
+2024-05-22T12:27:01.702Z [info]: Compilation response received
+2024-05-22T12:27:07.833Z [info]: Compiling code in language: python
+2024-05-22T12:27:07.839Z [error]: Error during code compilation: 
+2024-05-22T14:07:38.870Z [info]: Server listening on port 8000
+2024-05-22T14:07:38.876Z [info]: Connected to the database.
+2024-05-22T14:07:38.880Z [info]: Users table created or already exists.
+2024-05-22T14:07:38.880Z [info]: Code history table created or already exists.
+2024-05-22T14:07:39.151Z [info]: Code analysis table created or already exists.
+2024-05-22T14:09:22.666Z [info]: Login attempt for username: Rino0709
+2024-05-22T14:09:22.778Z [info]: User logged in successfully: Rino0709
+2024-05-22T14:14:09.328Z [info]: Server listening on port 8000
+2024-05-22T14:14:09.336Z [info]: Connected to the database.
+2024-05-22T14:14:09.343Z [info]: Users table created or already exists.
+2024-05-22T14:14:09.344Z [info]: Code history table created or already exists.
+2024-05-22T14:14:38.119Z [info]: Compiling code in language: python
+2024-05-22T14:14:38.217Z [info]: Compilation response received
+2024-05-22T14:14:40.890Z [info]: Compiling code in language: python
+2024-05-22T14:14:40.931Z [info]: Compilation response received
+2024-05-22T14:14:42.194Z [info]: Login attempt for username: Rino0709
+2024-05-22T14:14:42.328Z [info]: User logged in successfully: Rino0709
+2024-05-22T14:18:24.707Z [info]: Compiling code in language: python
+2024-05-22T14:18:24.753Z [info]: Compilation response received
+2024-05-22T14:18:24.766Z [info]: Saving code for user ID: 2
+2024-05-22T14:18:25.122Z [info]: Code saved successfully for user ID: 2
+2024-05-22T15:20:08.882Z [info]: Server listening on port 8000
+2024-05-22T15:20:08.888Z [info]: Connected to the database.
+2024-05-22T15:20:08.893Z [info]: Users table created or already exists.
+2024-05-22T15:20:08.894Z [info]: Code history table created or already exists.
+2024-05-22T15:20:39.578Z [info]: Compiling code in language: python
+2024-05-22T15:20:39.672Z [info]: Compilation response received
+2024-05-22T15:20:54.394Z [info]: Login attempt for username: admin
+2024-05-22T15:20:54.395Z [warn]: User not found: admin
+2024-05-22T15:20:54.396Z [warn]: Invalid credentials for user: admin
+2024-05-22T15:20:56.033Z [info]: Login attempt for username: admin
+2024-05-22T15:20:56.035Z [warn]: User not found: admin
+2024-05-22T15:20:56.035Z [warn]: Invalid credentials for user: admin
+2024-05-22T15:20:58.257Z [info]: Login attempt for username: Rino
+2024-05-22T15:20:58.316Z [info]: User logged in successfully: Rino
+2024-05-22T15:21:04.936Z [info]: Fetching code history for user ID: 1
+2024-05-22T15:21:04.989Z [info]: Code history retrieved successfully for user ID: 1
+2024-05-22T15:21:18.476Z [info]: Compiling code in language: python
+2024-05-22T15:21:18.498Z [info]: Compilation response received
+2024-05-22T15:21:18.508Z [info]: Saving code for user ID: 1
+2024-05-22T15:21:18.707Z [info]: Code saved successfully for user ID: 1
+2024-05-22T15:32:56.715Z [info]: Server listening on port 8000
+2024-05-22T15:32:56.726Z [info]: Connected to the database.
+2024-05-22T15:32:56.731Z [info]: Users table created or already exists.
+2024-05-22T15:32:56.731Z [info]: Code history table created or already exists.
+2024-05-22T15:33:27.157Z [info]: Compiling code in language: python; IP: IP отсутствует
+2024-05-22T15:33:27.219Z [info]: Compilation response received
+2024-05-22T15:37:44.983Z [info]: Server listening on port 8000
+2024-05-22T15:37:44.991Z [info]: Connected to the database.
+2024-05-22T15:37:44.997Z [info]: Users table created or already exists.
+2024-05-22T15:37:44.997Z [info]: Code history table created or already exists.
+2024-05-22T15:38:28.510Z [info]: Compiling code in language: python; IP: IP отсутствует
+2024-05-22T15:38:28.578Z [info]: Compilation response received
+2024-05-22T15:38:35.190Z [info]: Login attempt for username: Rino
+2024-05-22T15:38:35.249Z [info]: User logged in successfully: Rino
+2024-05-22T15:38:38.136Z [info]: Compiling code in language: python; IP: IP отсутствует
+2024-05-22T15:38:38.154Z [info]: Compilation response received
+2024-05-22T15:38:38.165Z [info]: Saving code for user ID: 1
+2024-05-22T15:38:38.290Z [info]: Code saved successfully for user ID: 1
+2024-05-22T15:39:24.298Z [info]: Server listening on port 8000
+2024-05-22T15:39:24.309Z [info]: Connected to the database.
+2024-05-22T15:39:24.315Z [info]: Users table created or already exists.
+2024-05-22T15:39:24.315Z [info]: Code history table created or already exists.
+2024-05-22T15:40:19.055Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T15:40:19.119Z [info]: Compilation response received
+2024-05-22T15:45:51.078Z [info]: Server listening on port 8000
+2024-05-22T15:45:51.091Z [info]: Connected to the database.
+2024-05-22T15:45:51.098Z [info]: Users table created or already exists.
+2024-05-22T15:45:51.099Z [info]: Code history table created or already exists.
+2024-05-22T15:46:16.807Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T15:46:16.889Z [info]: Compilation response received
+2024-05-22T15:47:02.226Z [info]: Compiling code in language: java; IP: ::1
+2024-05-22T15:47:03.151Z [info]: Compilation response received
+2024-05-22T15:47:06.117Z [info]: Compiling code in language: java; IP: ::1
+2024-05-22T15:47:06.656Z [info]: Compilation response received
+2024-05-22T15:47:13.098Z [info]: Compiling code in language: javascript; IP: ::1
+2024-05-22T15:47:13.626Z [info]: Compilation response received
+2024-05-22T16:01:38.390Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T16:01:38.414Z [info]: Compilation response received
+2024-05-22T16:09:15.353Z [info]: Login attempt for username: Rino
+2024-05-22T16:09:15.413Z [info]: User logged in successfully: Rino
+2024-05-22T16:09:16.132Z [info]: Fetching code history for user ID: 1
+2024-05-22T16:09:16.133Z [info]: Code history retrieved successfully for user ID: 1

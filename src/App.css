@@ -41,6 +41,7 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.4); /* Цвет фона с затемнением */
+  
   opacity: 0; /* Начальное значение прозрачности */
   animation: fadeIn 0.5s forwards; /* Анимация для плавного появления */
 }
@@ -64,7 +65,7 @@
 
 /* Стили для контента модального окна */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #f1f1f1;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
