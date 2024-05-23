@@ -1,4 +1,3 @@
-
 .navbar {
     display: flex;
     align-items: center;
@@ -46,83 +45,83 @@
 }
 
 .button-logout {
-    background-color: #ff4d4d; /* Красный цвет фона */
-    color: white; /* Белый цвет текста */
-    border: none; /* Убираем границу */
-    padding: 10px 20px; /* Отступы */
+    background-color: #ff4d4d; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
     font-weight: bold;
-    margin: 5px; /* Поля */
-    border-radius: 5px; /* Скругленные углы */
-    cursor: pointer; /* Курсор указывает на кликабельность */
+    margin: 5px;
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 .button-logout:hover {
-    background-color: #ff1a1a; /* Темнее красный при наведении */
+    background-color: #ff1a1a; 
 }
 
 .button-history {
-    background-color: #4d79ff; /* Синий цвет фона */
-    color: white; /* Белый цвет текста */
-    border: none; /* Убираем границу */
+    background-color: #4d79ff; 
+    color: white; 
+    border: none; 
     font-weight: bold;
-    padding: 10px 20px; /* Отступы */
-    margin: 5px; /* Поля */
-    border-radius: 5px; /* Скругленные углы */
-    cursor: pointer; /* Курсор указывает на кликабельность */
+    padding: 10px 20px; 
+    margin: 5px; 
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 .button-history:hover {
-    background-color: #1a53ff; /* Темнее синий при наведении */
+    background-color: #1a53ff; 
 }
 
 .button-login {
-    background-color: #4caf50; /* Зеленый цвет фона */
-    color: white; /* Белый цвет текста */
-    border: none; /* Убираем границу */
-    padding: 10px 20px; /* Отступы */
+    background-color: #4caf50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
     margin-right:60px;
     font-weight: bold;
-    margin: 5px; /* Поля */
-    border-radius: 5px; /* Скругленные углы */
-    cursor: pointer; /* Курсор указывает на кликабельность */
+    margin: 5px; 
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 .button-login:hover {
-    background-color: #45a049; /* Темнее зеленый при наведении */
+    background-color: #45a049;
 }
 
 .button-register {
-    background-color: #f0ad4e; /* Оранжевый цвет фона */
-    color: white; /* Белый цвет текста */
-    border: none; /* Убираем границу */
+    background-color: #f0ad4e; 
+    color: white; 
+    border: none; 
     font-weight: bold;
-    padding: 10px 20px; /* Отступы */
-    margin: 5px; /* Поля */
-    border-radius: 5px; /* Скругленные углы */
-    cursor: pointer; /* Курсор указывает на кликабельность */
+    padding: 10px 20px; 
+    margin: 5px;
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 .button-register:hover {
-    background-color: #ec971f; /* Темнее оранжевый при наведении */
+    background-color: #ec971f; 
 }
 
 .input-field {
-    padding: 10px; /* Отступы */
-    margin: 5px; /* Поля */
-    border-radius: 5px; /* Скругленные углы */
-    border: 1px solid #ccc; /* Серая граница */
-    width: 200px; /* Ширина */
-    box-sizing: border-box; /* Учитывать padding и border в ширине */
+    padding: 10px; 
+    margin: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    width: 200px; 
+    box-sizing: border-box; 
 }
 
 .input-field:focus {
-    outline: none; /* Убираем стандартное выделение */
-    border-color: #4caf50; /* Зеленая граница при фокусе */
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Тень */
+    outline: none; 
+    border-color: #4caf50; 
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); 
 }
 
 .auth-buttons {
-    display: flex; /* Используем flexbox для горизонтального выравнивания */
-    align-items: center; /* Вертикальное выравнивание по центру */
+    display: flex; 
+    align-items: center; 
     gap: 8%;
 }
