@@ -29,6 +29,7 @@
   background-color: #242424;
   border-left: 3px solid #1f65e6;
   padding: 5px;
+  padding-top: 10px;
 }
 
 .modal {
@@ -204,4 +205,86 @@ h4 {
   background-color: #6e9427;
 }
 
+/* Основные стили для контейнера формы */
+#upload-form {
+  display: flex;
+  width:10px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
 
+/* Скрываем input file */
+.file-input {
+  display: none;
+}
+
+/* Стили для кнопки выбора файла */
+.file-label {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.file-label:hover {
+  background-color: #2980b9;
+}
+
+/* Стили для кнопки загрузки */
+.upload-btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  Text-align: center;
+  width: 110px;
+  Margin: auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #27ae60;
+}
+
+/* Стили для вывода результата */
+.output {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  white-space: pre-wrap; /* для сохранения переносов строк */
+  background-color: #f9f9f9;
+  font-family: monospace;
+}
+
+.download-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 125px;
+  width: 120px;
+  height: 40px;
+  margin-bottom:10px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #afec3f;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;  
+  
+  
+}
+
+.download-btn:hover {
+  background-color: #45a049;
+}

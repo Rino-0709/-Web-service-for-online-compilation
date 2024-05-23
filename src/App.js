@@ -110,6 +110,55 @@ function App() {
         setUserOutput("");
     }
 
+    const downloadCode = () => {
+        const element = document.createElement("a");
+        const file = new Blob([userCode], { type: 'text/plain' });
+        let extension;
+        switch (userLang) {
+            case 'python':
+                extension = 'py';
+                break;
+            case 'cpp':
+                extension = 'cpp';
+                break;
+            case 'java':
+                extension = 'java';
+                break;
+            case 'javascript':
+                extension = 'js';
+                break;
+            default:
+                extension = 'txt';
+        }
+        const filename = `code.${extension}`;
+        element.href = URL.createObjectURL(file);
+        element.download = filename;
+        document.body.appendChild(element);
+        element.click();
+    };
+
+    const handleFileUpload = (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                setUserCode(event.target.result);
+            };
+            const fileExtension = file.name.split('.').pop();
+            const languageMap = {
+                'py': 'python',
+                'cpp': 'cpp',
+                'java': 'java',
+                'js': 'javascript',
+                // Добавьте другие языки по мере необходимости
+            };
+            setUserLang(languageMap[fileExtension] || 'plaintext');
+            reader.readAsText(file);
+        }
+    };
+
+    
+
     return (
         <div className="App">       
             <Navbar
@@ -124,23 +173,34 @@ function App() {
             <SplitPane split="vertical" className="split" minSize={400} maxSize={1500} defaultSize='60%'  >
                 
                     <div className="left-container" height = '0'> 
-                        <Editor
-                            options={options}
-                            height="calc(100vh - 50px)"
-                            width="100%"
-                            theme={userTheme}
-                            language={userLang}
-                            defaultLanguage="python"
-                            defaultValue="#Enter your code here"
-                            onChange={(value) => { setUserCode(value) }}
-                        />
+                    <Editor
+                        options={options}
+                        height="calc(100vh - 50px)"
+                        width="100%"
+                        theme={userTheme}
+                        language={userLang}
+                        defaultLanguage="python"
+                        defaultValue="#Enter your code here"
+                        value={userCode}
+                        onChange={(value) => { setUserCode(value) }}
+                    />
                         <button className="run-btn" onClick={() => compile()}>
                             Run
                         </button>
+                        <button className="download-btn" onClick={downloadCode}>Download</button>
                     </div>
                     
                     <div className="right-container" height = '0'>
+                        <label htmlFor="upload-file" className="upload-btn">Upload-file</label>
                         <h4>Input:</h4>
+                        <input
+                            type="file"
+                            accept=".py,.cpp,.java,.js,.txt"
+                            onChange={handleFileUpload}
+                            style={{ display: 'none' }}
+                            id="upload-file"
+                        />
+                        
                         <div className="input-box">
                             <textarea id="code-inp" onChange=
                                 {(e) => setUserInput(e.target.value)}>

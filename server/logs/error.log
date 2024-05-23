@@ -32,3 +32,22 @@
 2024-05-22T22:37:53.456Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
 2024-05-22T23:02:35.421Z [error]: Error checking token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
 2024-05-22T23:18:52.492Z [error]: Error checking token: nahui from IP: ::1
+2024-05-23T11:32:47.567Z [error]: Error during code compilation: 
+2024-05-23T11:35:43.842Z [error]: Error during code compilation: 
+2024-05-23T11:36:06.130Z [error]: Error during code compilation: 
+2024-05-23T11:36:28.170Z [error]: Error during code compilation: 
+2024-05-23T11:38:09.958Z [error]: Error during code compilation: 
+2024-05-23T11:40:59.902Z [error]: Error during code compilation: 
+2024-05-23T12:10:06.948Z [error]: Unauthorized access attempt
+2024-05-23T12:10:09.518Z [error]: Unauthorized access attempt
+2024-05-23T12:10:10.899Z [error]: Unauthorized access attempt
+2024-05-23T12:10:11.399Z [error]: Unauthorized access attempt
+2024-05-23T12:10:11.562Z [error]: Unauthorized access attempt
+2024-05-23T12:10:11.709Z [error]: Unauthorized access attempt
+2024-05-23T12:10:11.872Z [error]: Unauthorized access attempt
+2024-05-23T12:10:12.034Z [error]: Unauthorized access attempt
+2024-05-23T12:10:12.178Z [error]: Unauthorized access attempt
+2024-05-23T12:10:12.331Z [error]: Unauthorized access attempt
+2024-05-23T12:10:12.466Z [error]: Unauthorized access attempt
+2024-05-23T12:10:12.612Z [error]: Unauthorized access attempt
+2024-05-23T12:10:12.748Z [error]: Unauthorized access attempt
