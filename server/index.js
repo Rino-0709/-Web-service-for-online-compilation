@@ -15,7 +15,7 @@ app.use(express.json());
 const crypto = require('crypto');
 const JWT_SECRET = crypto.randomBytes(32).toString('hex');
 
-app.post("/register", (req, res) => {
+app.post("/register", (req, res) => {//Регистрация, обращение в базу данных sqlite
   const { username, password } = req.body;
   database.registerUser(username, password, (err) => {
       if (err) {
@@ -26,7 +26,7 @@ app.post("/register", (req, res) => {
   });
 });
 
-app.post("/login", (req, res) => {
+app.post("/login", (req, res) => {//Логин, обращение в базу данных sqlite
   const { username, password } = req.body;
   database.loginUser(username, password, (err, user) => {
       if (err) {

@@ -1,32 +1,32 @@
 import React, {useState} from 'react';
 import Select from 'react-select';
 import '../Styles/Navbar.css';
-import '../App.css';
+import '../Styles/App.css';
 
 const Navbar = ({ userLang, setUserLang, userTheme, setUserTheme, fontSize, setFontSize, token, handleLogin, handleRegister, handleLogout, handleShowHistory }) => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
-    const languages = [
+    const languages = [//поддерживаемые языки программирования
         { value: "python", label: "Python" },
         { value: "java", label: "Java" },
         { value: "cpp", label: "C++" },
         { value: "javascript", label: "Javascript" },
     ];
-    const themes = [
+    const themes = [//Возможные темы
         { value: "vs-dark", label: "Dark" },
         { value: "light", label: "Light" },
     ]
-    const getLabelByValue = (options, value) => {
+    const getLabelByValue = (options, value) => {//Получить название языка программирования 
         const option = options.find(option => option.value === value);
         return option ? option.label : "";
     };
 
-    const handleLoginClick = () => {
+    const handleLoginClick = () => {//Обработчик события, который обрабатывает логин
         handleLogin(username, password);
     };
 
-    const handleRegisterClick = () => {
+    const handleRegisterClick = () => {//Обработчик события, который обрабатывает регистрацию
         handleRegister(username, password);
     };
 

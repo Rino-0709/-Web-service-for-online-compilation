@@ -847,3 +847,129 @@ SyntaxError: invalid syntax
 2024-05-23T12:33:01.185Z [info]: Compilation response received
 2024-05-23T12:33:01.200Z [info]: Saving code for user ID: 3
 2024-05-23T12:33:01.317Z [info]: Code saved successfully for user ID: 3
+2024-05-23T15:06:27.039Z [info]: Login attempt for username: Rino123
+2024-05-23T15:06:27.130Z [info]: User logged in successfully: Rino123
+2024-05-23T15:06:27.623Z [info]: Fetching code history for user ID: 3
+2024-05-23T15:06:27.623Z [info]: Code history retrieved successfully for user ID: 3
+2024-05-23T15:23:21.127Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:23:21.127Z [info]: Compiling code in language: cpp; IP: ::1
+2024-05-23T15:23:22.065Z [info]: Compilation response received
+2024-05-23T15:24:25.123Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:24:25.123Z [info]: Compiling code in language: cpp; IP: ::1
+2024-05-23T15:24:25.494Z [info]: Compilation response received
+2024-05-23T15:24:31.140Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:24:31.141Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T15:24:31.182Z [info]: Compilation response received
+2024-05-23T15:24:35.775Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:24:35.775Z [info]: Compiling code in language: javascript; IP: ::1
+2024-05-23T15:24:36.351Z [info]: Compilation response received
+2024-05-23T15:24:40.656Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:24:40.656Z [info]: Compiling code in language: java; IP: ::1
+2024-05-23T15:24:41.489Z [info]: Compilation response received
+2024-05-23T15:24:54.863Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:24:54.863Z [info]: Compiling code in language: java; IP: ::1
+2024-05-23T15:24:55.468Z [info]: Compilation response received
+2024-05-23T15:24:58.741Z [info]: Login attempt for username: Rino123
+2024-05-23T15:24:58.798Z [info]: User logged in successfully: Rino123
+2024-05-23T15:25:29.887Z [info]: Registering user: login
+2024-05-23T15:25:30.060Z [info]: User registered successfully: login
+2024-05-23T15:25:30.097Z [info]: Login attempt for username: login
+2024-05-23T15:25:30.157Z [info]: User logged in successfully: login
+2024-05-23T15:25:32.031Z [info]: Fetching code history for user ID: 4
+2024-05-23T15:25:32.031Z [info]: Code history retrieved successfully for user ID: 4
+2024-05-23T15:25:39.631Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:25:39.632Z [info]: Compiling code in language: cpp; IP: ::1
+2024-05-23T15:25:39.953Z [info]: Compilation response received
+2024-05-23T15:25:39.963Z [info]: Saving code for user ID: 4
+2024-05-23T15:25:40.042Z [info]: Code saved successfully for user ID: 4
+2024-05-23T15:25:44.575Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:25:44.575Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T15:25:44.599Z [info]: Compilation response received
+2024-05-23T15:25:44.605Z [info]: Saving code for user ID: 4
+2024-05-23T15:25:44.700Z [info]: Code saved successfully for user ID: 4
+2024-05-23T15:25:49.378Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:25:49.379Z [info]: Compiling code in language: javascript; IP: ::1
+2024-05-23T15:25:49.848Z [info]: Compilation response received
+2024-05-23T15:25:49.861Z [info]: Saving code for user ID: 4
+2024-05-23T15:25:49.933Z [info]: Code saved successfully for user ID: 4
+2024-05-23T15:25:54.734Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:25:54.734Z [info]: Compiling code in language: java; IP: ::1
+2024-05-23T15:25:55.343Z [info]: Compilation response received
+2024-05-23T15:25:55.357Z [info]: Saving code for user ID: 4
+2024-05-23T15:25:55.450Z [info]: Code saved successfully for user ID: 4
+2024-05-23T15:26:07.900Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:26:07.900Z [info]: Compiling code in language: java; IP: ::1
+2024-05-23T15:26:08.447Z [info]: Compilation response received
+2024-05-23T15:26:08.467Z [info]: Saving code for user ID: 4
+2024-05-23T15:26:08.541Z [info]: Code saved successfully for user ID: 4
+2024-05-23T15:26:09.635Z [info]: Fetching code history for user ID: 4
+2024-05-23T15:26:09.636Z [info]: Code history retrieved successfully for user ID: 4
+2024-05-23T15:26:21.228Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:26:21.228Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T15:26:21.251Z [info]: Compilation response received
+2024-05-23T15:26:21.262Z [info]: Saving code for user ID: 4
+2024-05-23T15:26:21.357Z [info]: Code saved successfully for user ID: 4
+2024-05-23T15:27:23.226Z [info]: Registering user: login2
+2024-05-23T15:27:23.361Z [info]: User registered successfully: login2
+2024-05-23T15:27:23.376Z [info]: Login attempt for username: login2
+2024-05-23T15:27:23.433Z [info]: User logged in successfully: login2
+2024-05-23T15:27:24.446Z [info]: Fetching code history for user ID: 5
+2024-05-23T15:27:24.447Z [info]: Code history retrieved successfully for user ID: 5
+2024-05-23T15:27:34.549Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:27:34.549Z [info]: Compiling code in language: cpp; IP: ::1
+2024-05-23T15:27:34.882Z [info]: Compilation response received
+2024-05-23T15:27:34.894Z [info]: Saving code for user ID: 5
+2024-05-23T15:27:34.987Z [info]: Code saved successfully for user ID: 5
+2024-05-23T15:27:40.432Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:27:40.433Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T15:27:40.459Z [info]: Compilation response received
+2024-05-23T15:27:40.474Z [info]: Saving code for user ID: 5
+2024-05-23T15:27:40.570Z [info]: Code saved successfully for user ID: 5
+2024-05-23T15:27:45.503Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:27:45.503Z [info]: Compiling code in language: javascript; IP: ::1
+2024-05-23T15:27:45.895Z [info]: Compilation response received
+2024-05-23T15:27:45.915Z [info]: Saving code for user ID: 5
+2024-05-23T15:27:46.003Z [info]: Code saved successfully for user ID: 5
+2024-05-23T15:27:50.011Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:27:50.011Z [info]: Compiling code in language: java; IP: ::1
+2024-05-23T15:27:50.620Z [info]: Compilation response received
+2024-05-23T15:27:50.631Z [info]: Saving code for user ID: 5
+2024-05-23T15:27:50.728Z [info]: Code saved successfully for user ID: 5
+2024-05-23T15:28:27.120Z [info]: Registering user: login3
+2024-05-23T15:28:27.249Z [info]: User registered successfully: login3
+2024-05-23T15:28:27.258Z [info]: Login attempt for username: login3
+2024-05-23T15:28:27.316Z [info]: User logged in successfully: login3
+2024-05-23T15:28:28.088Z [info]: Fetching code history for user ID: 6
+2024-05-23T15:28:28.088Z [info]: Code history retrieved successfully for user ID: 6
+2024-05-23T15:28:36.602Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:28:36.602Z [info]: Compiling code in language: cpp; IP: ::1
+2024-05-23T15:28:36.907Z [info]: Compilation response received
+2024-05-23T15:28:36.919Z [info]: Saving code for user ID: 6
+2024-05-23T15:28:37.009Z [info]: Code saved successfully for user ID: 6
+2024-05-23T15:28:40.960Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:28:40.960Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T15:28:40.980Z [info]: Compilation response received
+2024-05-23T15:28:40.985Z [info]: Saving code for user ID: 6
+2024-05-23T15:28:41.083Z [info]: Code saved successfully for user ID: 6
+2024-05-23T15:28:44.980Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:28:44.980Z [info]: Compiling code in language: javascript; IP: ::1
+2024-05-23T15:28:45.365Z [info]: Compilation response received
+2024-05-23T15:28:45.380Z [info]: Saving code for user ID: 6
+2024-05-23T15:28:45.475Z [info]: Code saved successfully for user ID: 6
+2024-05-23T15:28:49.563Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:28:49.563Z [info]: Compiling code in language: java; IP: ::1
+2024-05-23T15:28:50.149Z [info]: Compilation response received
+2024-05-23T15:28:50.155Z [info]: Saving code for user ID: 6
+2024-05-23T15:28:50.233Z [info]: Code saved successfully for user ID: 6
+2024-05-23T15:29:01.015Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:29:01.015Z [info]: Compiling code in language: java; IP: ::1
+2024-05-23T15:29:01.556Z [info]: Compilation response received
+2024-05-23T15:29:01.565Z [info]: Saving code for user ID: 6
+2024-05-23T15:29:01.657Z [info]: Code saved successfully for user ID: 6
+2024-05-23T15:29:11.564Z [info]: Fetching code history for user ID: 6
+2024-05-23T15:29:11.564Z [info]: Code history retrieved successfully for user ID: 6
+2024-05-23T15:29:21.224Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T15:29:21.224Z [info]: Compiling code in language: java; IP: ::1
+2024-05-23T15:29:21.809Z [info]: Compilation response received
+2024-05-23T15:29:21.818Z [info]: Saving code for user ID: 6
+2024-05-23T15:29:21.907Z [info]: Code saved successfully for user ID: 6

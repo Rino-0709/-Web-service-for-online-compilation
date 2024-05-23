@@ -1,13 +1,10 @@
 import { useState } from 'react';
-import './App.css';
+import './Styles/App.css';
 import Editor from "@monaco-editor/react";
 import Navbar from './Components/Navbar.js';
 import Axios from 'axios';
 import spinner from './spinner.svg';
 import SplitPane from 'react-split-pane'
-
-
-
 
 function App() {
     const [userCode, setUserCode] = useState(``);
@@ -26,7 +23,14 @@ function App() {
         fontSize: fontSize
     }
 
-    const handleLogin = async (username, password) => {
+    const languageExtensions = {
+        python: 'py',
+        cpp: 'cpp',
+        java: 'java',
+        javascript: 'js'
+    };
+
+    const handleLogin = async (username, password) => {//Залогиниться
         try {
             const res = await Axios.post(`http://localhost:8000/login`, { username, password });
             setToken(res.data.token);
@@ -35,7 +39,7 @@ function App() {
         }
     };
 
-    const handleRegister = async (username, password) => {
+    const handleRegister = async (username, password) => {//Регистрация
         try {
             await Axios.post(`http://localhost:8000/register`, { username, password });
             handleLogin(username, password);
@@ -44,18 +48,18 @@ function App() {
         }
     };
 
-    const handleLogout = () => {
+    const handleLogout = () => {//Выйти из аккаунта
         setToken(null);
     };
 
-    const handleShowHistory = async () => {
+    const handleShowHistory = async () => {//Показать историю кода
         if (!token) return;
 
         Axios.get('http://localhost:8000/code-history', {
             headers: { Authorization: token }
         }).then((res) => {
             setCodeHistory(res.data);
-            setShowCodeHistory(true); // Показать модальное окно при успешном получении истории кода
+            setShowCodeHistory(true); 
         }).catch(err => {
             console.error(err);
         });
@@ -113,23 +117,7 @@ function App() {
     const downloadCode = () => {
         const element = document.createElement("a");
         const file = new Blob([userCode], { type: 'text/plain' });
-        let extension;
-        switch (userLang) {
-            case 'python':
-                extension = 'py';
-                break;
-            case 'cpp':
-                extension = 'cpp';
-                break;
-            case 'java':
-                extension = 'java';
-                break;
-            case 'javascript':
-                extension = 'js';
-                break;
-            default:
-                extension = 'txt';
-        }
+        const extension = languageExtensions[userLang] || 'txt';
         const filename = `code.${extension}`;
         element.href = URL.createObjectURL(file);
         element.download = filename;
@@ -150,14 +138,12 @@ function App() {
                 'cpp': 'cpp',
                 'java': 'java',
                 'js': 'javascript',
-                // Добавьте другие языки по мере необходимости
             };
             setUserLang(languageMap[fileExtension] || 'plaintext');
             reader.readAsText(file);
         }
     };
 
-    
 
     return (
         <div className="App">       
@@ -263,13 +249,5 @@ function App() {
     );
     
 }
-
-
-
-
-
-
-
-
 
 export default App;

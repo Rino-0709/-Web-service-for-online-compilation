@@ -11,7 +11,7 @@
     text-align: center;
     color: #607dff;
     background-color: #474747;
-    gap: 60px;
+    gap: 3%;
 }
 
 .navbar h1 {
@@ -124,5 +124,5 @@
 .auth-buttons {
     display: flex; /* Используем flexbox для горизонтального выравнивания */
     align-items: center; /* Вертикальное выравнивание по центру */
-    gap: 50px;
+    gap: 8%;
 }
