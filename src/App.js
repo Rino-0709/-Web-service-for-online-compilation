@@ -68,7 +68,8 @@ function App() {
         Axios.post(`http://localhost:8000/compile`, {
             code: userCode,
             language: userLang,
-            input: userInput
+            input: userInput,
+            private_token: "oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8"
         }).then((res) => {
             setUserOutput(res.data);
             if (token) {

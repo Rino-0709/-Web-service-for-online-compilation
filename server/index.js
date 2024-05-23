@@ -90,7 +90,6 @@ app.post("/compile", async (req, res) => {
   let ip_addr;
 
   if (req.headers['X_FORWARDED_FOR']) {
-    // `x-forwarded-for` может содержать список IP-адресов через запятую, мы берем первый
     ip_addr = req.headers['X_FORWARDED_FOR'].split(',')[0].trim();
   } else if (req.headers['X_REAL_IP']) {
     ip_addr = req.headers['X_REAL_IP'];
@@ -105,35 +104,42 @@ app.post("/compile", async (req, res) => {
   } else {
     ip_addr = 'IP отсутствует';
   }
-  const { code, language, input } = req.body;
-  logger.info(`Compiling code in language: ${language}; IP: ${ip_addr}`);
+  const { code, language, input, private_token } = req.body;
+
+  const flag = await database.checkToken(private_token, ip_addr);
+  if (flag) {
+    logger.info(`Compiling code in language: ${language}; IP: ${ip_addr}`);
   
-  const apiUrl = 'http://localhost:5000/compile';
-  const requestData = {
-      language: language,
-      code: code,
-      input: input
-  };
+    const apiUrl = 'http://localhost:5000/compile';
+    const requestData = {
+        language: language,
+        code: code,
+        input: input,
+    };
 
-  try {
-    const response = await axios.post(apiUrl, requestData);
-    const { output, error, exit_code } = response.data;
-    logger.info(`Compilation response received`);
-    let result;
-    if (error) {
-      result = `${output}\n${error}`;
-    } else {
-      result = `${output}\n...Program finished with exit code ${exit_code}`;
-    }
-    res.send(result);
+    try {
+      const response = await axios.post(apiUrl, requestData);
+      const { output, error, exit_code } = response.data;
+      logger.info(`Compilation response received`);
+      let result;
+      if (error) {
+        result = `${output}\n${error}`;
+      } else {
+        result = `${output}\n...Program finished with exit code ${exit_code}`;
+      }
+      res.send(result);
 
-  } catch (error) {
-    logger.error(`Error during code compilation: ${error.message}`);
-    if (error.response) {
-      res.status(error.response.status).send(error.response.data);
-    } else {
-      res.status(500).send({ error: 'An error occurred while compiling the code.' });
+    } catch (error) {
+      logger.error(`Error during code compilation: ${error.message}`);
+      if (error.response) {
+        res.status(error.response.status).send(error.response.data);
+      } else {
+        res.status(500).send({ error: 'An error occurred while compiling the code.' });
+      }
     }
+  } else {
+    logger.info('Access denied.')
+    res.status(401).send({ error: 'Undefined token.' });
   }
 });
 

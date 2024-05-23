@@ -41,6 +41,19 @@ db.serialize(() => {
             logger.info('Code history table created or already exists.');
         }
     });
+
+    db.run(`CREATE TABLE IF NOT EXISTS private_token (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        company_id INTEGER,
+        token TEXT,
+        company_name TEXT
+    )`, (err) => {
+        if (err) {
+            logger.error(`Error creating code_history table: ${err.message}`);
+        } else {
+            logger.info('Code history table created or already exists.');
+        }
+    });
 });
 
 function registerUser(username, password, callback) {
@@ -100,6 +113,24 @@ function saveCode(userId, code, language, callback) {
     });
 }
 
+function checkToken(token, ip) {
+    return new Promise((resolve, reject) => {
+        const query = `SELECT * FROM private_token WHERE token = ?`;
+        db.get(query, [token], (err, row) => {
+            if (err) {
+                logger.error(`Error checking token: ${token} from IP: ${ip}`);
+                reject(err);
+            } else if (row) {
+                logger.info(`Successfully API check - token: ${token} from IP: ${ip}`);
+                resolve(true);
+            } else {
+                logger.warn(`Token not found: ${token} from IP: ${ip}`);
+                resolve(false);
+            }
+        });
+    });
+};
+
 const getCodeHistory = (userId, callback) => {
     logger.info(`Fetching code history for user ID: ${userId}`);
     const query = `SELECT * FROM code_history WHERE user_id = ? ORDER BY timestamp DESC`;
@@ -117,5 +148,6 @@ module.exports = {
     registerUser,
     loginUser,
     saveCode,
-    getCodeHistory
+    getCodeHistory,
+    checkToken
 };

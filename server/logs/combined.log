@@ -187,3 +187,354 @@ SyntaxError: invalid syntax
 2024-05-22T16:09:15.413Z [info]: User logged in successfully: Rino
 2024-05-22T16:09:16.132Z [info]: Fetching code history for user ID: 1
 2024-05-22T16:09:16.133Z [info]: Code history retrieved successfully for user ID: 1
+2024-05-22T16:31:06.668Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T16:31:06.696Z [info]: Compilation response received
+2024-05-22T16:33:44.327Z [info]: Server listening on port 8000
+2024-05-22T16:33:44.334Z [info]: Connected to the database.
+2024-05-22T16:33:44.338Z [info]: Users table created or already exists.
+2024-05-22T16:33:44.339Z [info]: Code history table created or already exists.
+2024-05-22T16:34:04.695Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T16:34:04.780Z [info]: Compilation response received
+2024-05-22T16:49:50.333Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T16:49:50.359Z [info]: Compilation response received
+2024-05-22T16:49:52.796Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T16:49:52.826Z [info]: Compilation response received
+2024-05-22T16:50:03.317Z [info]: Registering user: Rino123
+2024-05-22T16:50:03.482Z [info]: User registered successfully: Rino123
+2024-05-22T16:50:03.494Z [info]: Login attempt for username: Rino123
+2024-05-22T16:50:03.558Z [info]: User logged in successfully: Rino123
+2024-05-22T16:50:06.277Z [info]: Fetching code history for user ID: 3
+2024-05-22T16:50:06.278Z [info]: Code history retrieved successfully for user ID: 3
+2024-05-22T16:50:11.200Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T16:50:11.225Z [info]: Compilation response received
+2024-05-22T16:50:11.236Z [info]: Saving code for user ID: 3
+2024-05-22T16:50:11.337Z [info]: Code saved successfully for user ID: 3
+2024-05-22T16:50:11.901Z [info]: Fetching code history for user ID: 3
+2024-05-22T16:50:11.902Z [info]: Code history retrieved successfully for user ID: 3
+2024-05-22T16:50:22.640Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T16:50:22.664Z [info]: Compilation response received
+2024-05-22T16:50:22.676Z [info]: Saving code for user ID: 3
+2024-05-22T16:50:22.807Z [info]: Code saved successfully for user ID: 3
+2024-05-22T16:50:57.338Z [info]: Login attempt for username: Rino123
+2024-05-22T16:50:57.396Z [info]: User logged in successfully: Rino123
+2024-05-22T22:28:59.750Z [info]: Server listening on port 8000
+2024-05-22T22:28:59.757Z [info]: Connected to the database.
+2024-05-22T22:28:59.762Z [info]: Users table created or already exists.
+2024-05-22T22:28:59.762Z [info]: Code history table created or already exists.
+2024-05-22T22:28:59.891Z [info]: Code history table created or already exists.
+2024-05-22T22:28:59.991Z [info]: Code history table created or already exists.
+2024-05-22T22:29:45.702Z [info]: Login attempt for username: Rino123
+2024-05-22T22:29:45.805Z [info]: User logged in successfully: Rino123
+2024-05-22T22:30:54.725Z [info]: Server listening on port 8000
+2024-05-22T22:30:54.739Z [info]: Connected to the database.
+2024-05-22T22:30:54.743Z [info]: Users table created or already exists.
+2024-05-22T22:30:54.744Z [info]: Code history table created or already exists.
+2024-05-22T22:30:54.744Z [info]: Code history table created or already exists.
+2024-05-22T22:31:11.986Z [info]: Login attempt for username: Rino123
+2024-05-22T22:31:12.050Z [info]: User logged in successfully: Rino123
+2024-05-22T22:35:01.882Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T22:35:01.937Z [error]: Error during code compilation: 
+2024-05-22T22:36:40.193Z [info]: Login attempt for username: Rino123
+2024-05-22T22:36:40.252Z [info]: User logged in successfully: Rino123
+2024-05-22T22:36:42.675Z [info]: Registering user: Rino123
+2024-05-22T22:36:42.768Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:42.768Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.295Z [info]: Registering user: Rino123
+2024-05-22T22:36:45.353Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.353Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.470Z [info]: Registering user: Rino123
+2024-05-22T22:36:45.528Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.528Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.648Z [info]: Registering user: Rino123
+2024-05-22T22:36:45.706Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.706Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.806Z [info]: Registering user: Rino123
+2024-05-22T22:36:45.863Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.863Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.988Z [info]: Registering user: Rino123
+2024-05-22T22:36:46.046Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.046Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.168Z [info]: Registering user: Rino123
+2024-05-22T22:36:46.228Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.228Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.358Z [info]: Registering user: Rino123
+2024-05-22T22:36:46.416Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.416Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.533Z [info]: Registering user: Rino123
+2024-05-22T22:36:46.591Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.591Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.713Z [info]: Registering user: Rino123
+2024-05-22T22:36:46.772Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.772Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.902Z [info]: Registering user: Rino123
+2024-05-22T22:36:46.962Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.962Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.088Z [info]: Registering user: Rino123
+2024-05-22T22:36:47.146Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.146Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.271Z [info]: Registering user: Rino123
+2024-05-22T22:36:47.329Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.329Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.515Z [info]: Registering user: Rino123
+2024-05-22T22:36:47.574Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.575Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:37:53.395Z [info]: Registering user: Rino123
+2024-05-22T22:37:53.455Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:37:53.456Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:43:54.836Z [info]: Server listening on port 8000
+2024-05-22T22:43:54.843Z [info]: Connected to the database.
+2024-05-22T22:43:54.847Z [info]: Users table created or already exists.
+2024-05-22T22:43:54.847Z [info]: Code history table created or already exists.
+2024-05-22T22:43:54.848Z [info]: Code history table created or already exists.
+2024-05-22T22:43:55.014Z [info]: Code history table created or already exists.
+2024-05-22T22:44:33.147Z [info]: Login attempt for username: Rino123
+2024-05-22T22:44:33.207Z [info]: User logged in successfully: Rino123
+2024-05-22T22:58:16.850Z [info]: Server listening on port 8000
+2024-05-22T22:58:16.857Z [info]: Connected to the database.
+2024-05-22T22:58:16.862Z [info]: Users table created or already exists.
+2024-05-22T22:58:16.863Z [info]: Code history table created or already exists.
+2024-05-22T22:58:16.863Z [info]: Code history table created or already exists.
+2024-05-22T23:02:12.528Z [info]: Server listening on port 8000
+2024-05-22T23:02:12.537Z [info]: Connected to the database.
+2024-05-22T23:02:12.542Z [info]: Users table created or already exists.
+2024-05-22T23:02:12.542Z [info]: Code history table created or already exists.
+2024-05-22T23:02:12.543Z [info]: Code history table created or already exists.
+2024-05-22T23:02:35.377Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:02:35.421Z [error]: Error checking token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:02:35.483Z [info]: Compilation response received
+2024-05-22T23:18:52.490Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:18:52.492Z [error]: Error checking token: nahui from IP: ::1
+2024-05-22T23:18:52.518Z [info]: Compilation response received
+2024-05-22T23:21:13.261Z [info]: Server listening on port 8000
+2024-05-22T23:21:13.270Z [info]: Connected to the database.
+2024-05-22T23:21:13.273Z [info]: Users table created or already exists.
+2024-05-22T23:21:13.274Z [info]: Code history table created or already exists.
+2024-05-22T23:21:13.274Z [info]: Code history table created or already exists.
+2024-05-22T23:21:41.205Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:21:41.274Z [info]: Compilation response received
+2024-05-22T23:21:41.278Z [warn]: Token not found: nahui from IP: ::1
+2024-05-22T23:21:45.459Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:21:45.462Z [warn]: Token not found: nahui from IP: ::1
+2024-05-22T23:21:45.503Z [info]: Compilation response received
+2024-05-22T23:21:48.697Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:21:48.700Z [warn]: Token not found: nahui from IP: ::1
+2024-05-22T23:21:48.721Z [info]: Compilation response received
+2024-05-22T23:23:57.325Z [info]: Server listening on port 8000
+2024-05-22T23:23:57.331Z [info]: Connected to the database.
+2024-05-22T23:23:57.336Z [info]: Users table created or already exists.
+2024-05-22T23:23:57.337Z [info]: Code history table created or already exists.
+2024-05-22T23:23:57.337Z [info]: Code history table created or already exists.
+2024-05-22T23:24:21.099Z [warn]: Token not found: nahui from IP: ::1
+2024-05-22T23:24:59.807Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:25:21.695Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:27:34.723Z [info]: Server listening on port 8000
+2024-05-22T23:27:34.731Z [info]: Connected to the database.
+2024-05-22T23:27:34.736Z [info]: Users table created or already exists.
+2024-05-22T23:27:34.736Z [info]: Code history table created or already exists.
+2024-05-22T23:27:34.737Z [info]: Code history table created or already exists.
+2024-05-22T23:27:56.805Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:27:56.854Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:27:56.876Z [info]: Compilation response received
+2024-05-22T23:29:05.184Z [info]: Server listening on port 8000
+2024-05-22T23:29:05.190Z [info]: Connected to the database.
+2024-05-22T23:29:05.194Z [info]: Users table created or already exists.
+2024-05-22T23:29:05.194Z [info]: Code history table created or already exists.
+2024-05-22T23:29:05.195Z [info]: Code history table created or already exists.
+2024-05-22T23:29:28.990Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:32:55.089Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:33:19.541Z [info]: Server listening on port 8000
+2024-05-22T23:33:19.548Z [info]: Connected to the database.
+2024-05-22T23:33:19.552Z [info]: Users table created or already exists.
+2024-05-22T23:33:19.552Z [info]: Code history table created or already exists.
+2024-05-22T23:33:19.553Z [info]: Code history table created or already exists.
+2024-05-22T23:33:24.372Z [info]: Access denied.
+2024-05-22T23:33:24.375Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:34:06.182Z [info]: Server listening on port 8000
+2024-05-22T23:34:06.189Z [info]: Connected to the database.
+2024-05-22T23:34:06.194Z [info]: Users table created or already exists.
+2024-05-22T23:34:06.195Z [info]: Code history table created or already exists.
+2024-05-22T23:34:06.195Z [info]: Code history table created or already exists.
+2024-05-22T23:34:09.271Z [info]: Access denied.
+2024-05-22T23:34:09.274Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:34:09.274Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:34:40.093Z [info]: Access denied.
+2024-05-22T23:34:40.095Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:34:40.096Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:38:32.401Z [info]: Server listening on port 8000
+2024-05-22T23:38:32.411Z [info]: Connected to the database.
+2024-05-22T23:38:32.420Z [info]: Users table created or already exists.
+2024-05-22T23:38:32.420Z [info]: Code history table created or already exists.
+2024-05-22T23:38:32.421Z [info]: Code history table created or already exists.
+2024-05-22T23:38:46.764Z [info]: Access denied.
+2024-05-22T23:38:46.766Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:39:40.093Z [info]: Server listening on port 8000
+2024-05-22T23:39:40.101Z [info]: Connected to the database.
+2024-05-22T23:39:40.106Z [info]: Users table created or already exists.
+2024-05-22T23:39:40.106Z [info]: Code history table created or already exists.
+2024-05-22T23:39:40.107Z [info]: Code history table created or already exists.
+2024-05-22T23:39:43.744Z [info]: Access denied.
+2024-05-22T23:39:43.747Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:40:10.756Z [info]: Server listening on port 8000
+2024-05-22T23:40:10.766Z [info]: Connected to the database.
+2024-05-22T23:40:10.771Z [info]: Users table created or already exists.
+2024-05-22T23:40:10.771Z [info]: Code history table created or already exists.
+2024-05-22T23:40:10.772Z [info]: Code history table created or already exists.
+2024-05-22T23:40:14.929Z [info]: Access denied.
+2024-05-22T23:40:14.933Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:41:35.205Z [info]: Server listening on port 8000
+2024-05-22T23:41:35.213Z [info]: Connected to the database.
+2024-05-22T23:41:35.218Z [info]: Users table created or already exists.
+2024-05-22T23:41:35.218Z [info]: Code history table created or already exists.
+2024-05-22T23:41:35.219Z [info]: Code history table created or already exists.
+2024-05-22T23:41:53.816Z [info]: Access denied.
+2024-05-22T23:41:53.819Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:42:36.061Z [info]: Server listening on port 8000
+2024-05-22T23:42:36.068Z [info]: Connected to the database.
+2024-05-22T23:42:36.073Z [info]: Users table created or already exists.
+2024-05-22T23:42:36.074Z [info]: Code history table created or already exists.
+2024-05-22T23:42:36.075Z [info]: Code history table created or already exists.
+2024-05-22T23:42:45.327Z [info]: Access denied.
+2024-05-22T23:42:45.330Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:43:41.470Z [info]: Access denied.
+2024-05-22T23:43:41.472Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:47:53.331Z [info]: Server listening on port 8000
+2024-05-22T23:47:53.340Z [info]: Connected to the database.
+2024-05-22T23:47:53.344Z [info]: Users table created or already exists.
+2024-05-22T23:47:53.345Z [info]: Code history table created or already exists.
+2024-05-22T23:47:53.346Z [info]: Code history table created or already exists.
+2024-05-22T23:48:20.803Z [info]: Access denied.
+2024-05-22T23:48:20.805Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:49:20.172Z [info]: Server listening on port 8000
+2024-05-22T23:49:20.179Z [info]: Connected to the database.
+2024-05-22T23:49:20.183Z [info]: Users table created or already exists.
+2024-05-22T23:49:20.184Z [info]: Code history table created or already exists.
+2024-05-22T23:49:20.184Z [info]: Code history table created or already exists.
+2024-05-22T23:49:37.918Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:49:37.919Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:49:38.005Z [info]: Compilation response received
+2024-05-22T23:49:54.545Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:49:54.546Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:49:54.585Z [info]: Compilation response received
+2024-05-22T23:49:58.838Z [warn]: Token not found: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xp from IP: ::1
+2024-05-22T23:49:58.838Z [info]: Access denied.
+2024-05-22T23:51:49.924Z [info]: Server listening on port 8000
+2024-05-22T23:51:49.930Z [info]: Connected to the database.
+2024-05-22T23:51:49.934Z [info]: Users table created or already exists.
+2024-05-22T23:51:49.935Z [info]: Code history table created or already exists.
+2024-05-22T23:51:49.935Z [info]: Code history table created or already exists.
+2024-05-22T23:52:28.934Z [info]: Server listening on port 8000
+2024-05-22T23:52:28.941Z [info]: Connected to the database.
+2024-05-22T23:52:28.946Z [info]: Users table created or already exists.
+2024-05-22T23:52:28.947Z [info]: Code history table created or already exists.
+2024-05-22T23:52:28.947Z [info]: Code history table created or already exists.
+2024-05-22T23:52:36.735Z [warn]: Token not found: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xp from IP: ::1
+2024-05-22T23:52:36.735Z [info]: Access denied.
+2024-05-22T23:52:57.411Z [info]: Server listening on port 8000
+2024-05-22T23:52:57.417Z [info]: Connected to the database.
+2024-05-22T23:52:57.423Z [info]: Users table created or already exists.
+2024-05-22T23:52:57.424Z [info]: Code history table created or already exists.
+2024-05-22T23:52:57.425Z [info]: Code history table created or already exists.
+2024-05-22T23:52:59.860Z [warn]: Token not found: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xp from IP: ::1
+2024-05-22T23:52:59.861Z [info]: Access denied.
+2024-05-22T23:53:25.583Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:53:25.583Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:53:25.665Z [info]: Compilation response received
+2024-05-22T23:53:37.238Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:53:37.238Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:53:37.261Z [info]: Compilation response received
+2024-05-22T23:53:53.566Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:53:53.567Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:53:53.604Z [info]: Compilation response received
+2024-05-22T23:54:02.704Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:54:02.704Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:54:02.728Z [info]: Compilation response received
+2024-05-22T23:54:07.687Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:54:07.687Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:54:07.711Z [info]: Compilation response received
+2024-05-22T23:54:08.231Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:54:08.232Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:54:08.270Z [info]: Compilation response received
+2024-05-22T23:54:08.428Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:54:08.428Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:54:08.455Z [info]: Compilation response received
+2024-05-22T23:54:28.672Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:54:28.673Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:54:28.699Z [info]: Compilation response received
+2024-05-22T23:54:35.222Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:54:35.222Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:54:35.252Z [info]: Compilation response received
+2024-05-22T23:54:46.495Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:54:46.495Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:54:46.517Z [info]: Compilation response received
+2024-05-22T23:54:50.655Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:54:50.655Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:54:50.679Z [info]: Compilation response received
+2024-05-22T23:55:49.971Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:55:49.971Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:55:50.010Z [info]: Compilation response received
+2024-05-22T23:55:58.136Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:55:58.137Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:55:58.158Z [info]: Compilation response received
+2024-05-22T23:56:25.470Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:56:25.470Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:56:25.488Z [info]: Compilation response received
+2024-05-22T23:56:54.200Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:56:54.200Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:56:54.223Z [info]: Compilation response received
+2024-05-22T23:57:16.460Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-22T23:57:16.461Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:57:16.481Z [info]: Compilation response received
+2024-05-22T23:59:03.270Z [info]: Server listening on port 8000
+2024-05-22T23:59:03.282Z [info]: Connected to the database.
+2024-05-22T23:59:03.284Z [info]: Users table created or already exists.
+2024-05-22T23:59:03.285Z [info]: Code history table created or already exists.
+2024-05-22T23:59:03.285Z [info]: Code history table created or already exists.
+2024-05-22T23:59:09.641Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:59:09.641Z [info]: Compiling code in language: python; IP: ::1
+2024-05-22T23:59:09.714Z [info]: Compilation response received
+2024-05-23T00:00:38.055Z [info]: Server listening on port 8000
+2024-05-23T00:00:38.062Z [info]: Connected to the database.
+2024-05-23T00:00:38.068Z [info]: Users table created or already exists.
+2024-05-23T00:00:38.069Z [info]: Code history table created or already exists.
+2024-05-23T00:00:38.069Z [info]: Code history table created or already exists.
+2024-05-23T00:00:42.053Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T00:00:42.053Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:00:42.119Z [info]: Compilation response received
+2024-05-23T00:00:54.460Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:00:54.461Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:00:54.481Z [info]: Compilation response received
+2024-05-23T00:01:28.012Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:01:28.012Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:01:28.031Z [info]: Compilation response received
+2024-05-23T00:02:48.139Z [info]: Server listening on port 8000
+2024-05-23T00:02:48.145Z [info]: Connected to the database.
+2024-05-23T00:02:48.150Z [info]: Users table created or already exists.
+2024-05-23T00:02:48.150Z [info]: Code history table created or already exists.
+2024-05-23T00:02:48.150Z [info]: Code history table created or already exists.
+2024-05-23T00:02:51.673Z [info]: Successfully API check - token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-23T00:02:51.674Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:02:51.749Z [info]: Compilation response received
+2024-05-23T00:03:12.157Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:03:12.157Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:03:12.183Z [info]: Compilation response received
+2024-05-23T00:03:20.126Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:03:20.126Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:03:20.153Z [info]: Compilation response received
+2024-05-23T00:03:48.513Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:03:48.513Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:03:48.538Z [info]: Compilation response received
+2024-05-23T00:03:50.965Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:03:50.965Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:03:50.987Z [info]: Compilation response received
+2024-05-23T00:04:18.622Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:04:18.622Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:04:18.645Z [info]: Compilation response received
+2024-05-23T00:04:24.919Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:04:24.919Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:04:24.940Z [info]: Compilation response received
+2024-05-23T00:04:25.567Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:04:25.567Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:04:25.590Z [info]: Compilation response received
+2024-05-23T00:04:36.813Z [info]: Successfully API check - token: tIHF4NxMfieAvYsLeRp39lgw8c11om7nMuShCSMUogQLMmGvt7gQGori5Xpu from IP: ::1
+2024-05-23T00:04:36.813Z [info]: Compiling code in language: python; IP: ::1
+2024-05-23T00:04:36.834Z [info]: Compilation response received

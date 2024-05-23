@@ -1,1 +1,34 @@
 2024-05-22T12:27:07.839Z [error]: Error during code compilation: 
+2024-05-22T22:35:01.937Z [error]: Error during code compilation: 
+2024-05-22T22:36:42.768Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:42.768Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.353Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.353Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.528Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.528Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.706Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.706Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.863Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:45.863Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.046Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.046Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.228Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.228Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.416Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.416Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.591Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.591Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.772Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.772Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.962Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:46.962Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.146Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.146Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.329Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.329Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.574Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:36:47.575Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:37:53.455Z [error]: Error registering user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T22:37:53.456Z [error]: Registration error for user Rino123: SQLITE_CONSTRAINT: UNIQUE constraint failed: users.username
+2024-05-22T23:02:35.421Z [error]: Error checking token: oXcLz6Fp4nth2JC4Shm1Ol0FSTk6zTy0cO47MISETKR54ZzPyO3MbHbUBeF8 from IP: ::1
+2024-05-22T23:18:52.492Z [error]: Error checking token: nahui from IP: ::1
